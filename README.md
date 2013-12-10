@@ -4,6 +4,7 @@ get-busy
 A daily function app.
 
 
+```
 while(daytime){
    if(business != "handled"){
       getFocused();
@@ -11,14 +12,14 @@ while(daytime){
 }
 
 function getFocused(){
-      swicth(this.eyes){
-          case 'black':
-             return getIcePack();
-          case 'sleepy': 
-          case 'red':
-          case 'swollen':
-          default :
-              return getCoffee();
-           
-      }
+	swicth(this.eyes){
+		case 'black':
+			return getIcePack();
+		case 'sleepy': 
+		case 'red':
+		case 'swollen':
+		default :
+			return getCoffee(); 
+	}
 }
+```
